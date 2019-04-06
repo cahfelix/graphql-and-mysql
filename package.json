@@ -1,0 +1,19 @@
+{
+  "name": "graphql-com-banco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "author": "Cah Felix (https://github.com/cahfelix)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.16.3",
+    "express-graphql": "0.6.12",
+    "graphql": "0.13.2",
+    "graphql-tools": "2.24.0",
+    "knex": "0.14.6",
+    "mysql": "2.15.0"
+  }
+}
